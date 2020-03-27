@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block title %}Questionare{% endblock %}
+
+
+{% block head %}
+<link rel="stylesheet" href="/static/css/main.css">
+<link rel="stylesheet" href="/static/css/questions.css">
+{% endblock %}
+
+
+
+
+{% block body %}
+
+<nav class="navbar bg-light fixed-top navbar-light">
+    <a class="navbar-brand mx-auto" href="/"><img width="32rem" height=30rem id="plague-img" src="/static/images/biohazard-transparent-bubonic-plague-1.png" alt="">  Project Corontine</a>
+</nav>
+<div class="bgimg"> </div>
+<div class="copyright">made by shreesh</div>
+    <!-- <div class="btn btn-lg btn-outline-success"></div> -->
+    <!-- main -->
+    <div class="container-fluid padding fullPage">
+    <div class="row h-100  vertical-center">
+        <div class="col-12 h-100 makeCenter vertical-center">
+            <div class="loginText text-center">
+                <h1 class="loginHeader">Questionaire</h1>
+                <div class="questionWrapper">
+                    
+                    <div class="questionHead" id="queno"></div><div class="questionHead" id="questionHead">que</div>
+                    <div id="answerElement" class="row text-center centerify">
+                        <button class="col-xs-12 col-md-5 btn btn-lg w-100 btn-outline-secondary options">
+                            op1
+                        </button>
+                        <button class="col-xs-12 col-md-5 btn btn-lg w-100 btn-outline-secondary options">
+                            op1
+                        </button>
+                        <button class="col-xs-12 col-md-5 btn btn-lg w-100 btn-outline-secondary options">
+                            op1
+                        </button>
+                        <button class="col-xs-12 col-md-5 btn btn-lg w-100 btn-outline-secondary options">
+                            op1
+                        </button>
+                    </div>
+                    <div class="container-fluid makeCenter">
+                        <div class="row text-center">
+                            <button id="nextBtn" class="btn btn-lg btn-primary">Next Question</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="jsfile">
+        <script>
+            var SomeValue = '{{ someValue }}';
+        </script>
+        <script src="/static/js/questionaire.js"></script>
+    </div>
+{% endblock %}

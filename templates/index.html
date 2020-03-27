@@ -1,0 +1,37 @@
+
+{% extends  "base.html" %}
+
+{% block title %}Corantine{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="/static/css/main.css">
+{% endblock %}
+
+
+{% block body %}
+<nav class="navbar bg-light fixed-top navbar-light">
+    <a class="navbar-brand mx-auto" href="/"><img width="32rem" height=30rem id="plague-img" src="/static/images/biohazard-transparent-bubonic-plague-1.png" alt="">  Project Corontine</a>
+</nav>
+
+<div class="copyright">made by shreesh</div>
+
+    <!-- <div class="btn btn-lg btn-outline-success"></div> -->
+    <!-- main -->
+    <div class="container-fluid padding fullPage">
+    <div class="row h-100  vertical-center">
+        <div class="col-12 h-100 makeCenter vertical-center">
+            <div class="loginText">
+                <h1 class="loginHeader">How well do you know Shreesh?</h1>
+                <form action="/" method="POST">
+                    <div class="form-group">
+                        <label for="userName">Name</label>
+                        <input type="text" class="form-control" id="userName" name="userName" placeholder="Your Name">
+                        <button type="submit" class="btn btn-primary submitBtn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="bgimg"> </div>
+{% endblock %}

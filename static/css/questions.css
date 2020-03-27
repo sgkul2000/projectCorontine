@@ -1,0 +1,91 @@
+.questionHead{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+h1{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.loginHeader{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.loginText{
+    border-radius: 8px;
+    padding: 4% 8%;
+    margin: auto auto;
+    /* margin-top: 4rem; */
+    max-width: 95%;
+    min-width: 80%;
+    line-height: 1.6;
+    position: absolute;
+    transform: translate(0, 5%);
+
+}
+.questionWrapper{
+    text-align: left;
+}
+.playerResult{
+    font-size: 1.3rem;
+    margin: 4% auto;
+}
+.Result{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 0;
+    padding: 4% 4%;
+}
+.tableHeader{
+    /* text-align: center; */
+    font-size: 1.2rem;
+    /* margin-left: 20%; */
+}
+.answer{
+    display: none;
+    position: absolute;
+}
+.formCheck{
+    margin: 1% auto;
+}
+.noDisplay{
+    opacity: 0;
+    /* display: none;
+    position: absolute; */
+}
+.options{
+    margin: 1rem auto !important;
+}
+.centerify{
+    margin: 0 auto;
+}
+.badge-info{
+    background-color: rgba(100, 174, 90, 1);
+    font-size: 1rem;
+}
+.scoreboard-item{
+    font-size: 1.2rem;
+}
+.playerResult{
+    margin: 1rem auto 2rem auto;
+    background-color: rgba(0, 123, 255, 1);
+    color: #eee;
+}
+.scoreboard{
+    margin-bottom: 1rem;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .loginText{
+        /* margin-top: 10%; */
+        min-width: 70%;
+    }
+    .tableHeader{
+        font-size: 2rem;
+    }
+    .Result{
+        font-size: 3rem;
+        font-weight: 300;
+    }
+}
