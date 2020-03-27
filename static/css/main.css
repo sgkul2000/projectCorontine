@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
 }
+
 .bgimg{
     background-image: url('/static/images/green-pine-tree-leaves-192136.jpg');
     background-position: center;
